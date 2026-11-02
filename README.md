@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio
 
-## Getting Started
+Personal portfolio with an admin dashboard. Next.js 16, Tailwind CSS 4, Supabase (database, auth, storage), deployed on Vercel. Everything runs on free tiers.
 
-First, run the development server:
+## Setup
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Create a Supabase project** at supabase.com (free plan).
+2. **Create the database.** In the Supabase dashboard open *SQL Editor*, paste and run `supabase/migrations/0001_init.sql`. To start with demo content, then run `supabase/seed.sql`.
+3. **Admin account.** *Authentication → Sign In / Providers*: turn off "Allow new users to sign up". Then *Authentication → Users → Add user*: your email and a strong password. This is the only account that can open `/admin`.
+4. **Environment.** Copy `.env.example` to `.env.local` and fill in the values from *Project settings → API* (project URL and anon/publishable key).
+5. **Run it.** `npm install`, then `npm run dev` and open http://localhost:3000. The admin is at http://localhost:3000/admin.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Commands
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- `npm run dev` — development server
+- `npm test` — unit tests
+- `npm run build` — production build
+- `npm run lint` — lint
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Deploy to Vercel
 
-## Learn More
+1. Import the repository in Vercel.
+2. Add the four variables from `.env.example` in *Project → Settings → Environment Variables*. Set `NEXT_PUBLIC_SITE_URL` to your live domain and `CRON_SECRET` to a long random string.
+3. Deploy. In Supabase, *Authentication → URL Configuration*, set the site URL to your live domain.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+A daily Vercel Cron job calls `/api/keepalive` so the free Supabase project is not paused for inactivity.

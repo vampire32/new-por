@@ -1,0 +1,39 @@
+- generic [active] [ref=f15e1]:
+  - generic [ref=f15e2]:
+    - complementary [ref=f15e3]:
+      - generic [ref=f15e4]:
+        - link "A Admin Portfolio content" [ref=f15e5] [cursor=pointer]:
+          - /url: /admin
+          - generic [ref=f15e6]: A
+          - generic [ref=f15e7]:
+            - generic [ref=f15e8]: Admin
+            - generic [ref=f15e9]: Portfolio content
+        - navigation "Admin" [ref=f15e10]:
+          - link "Overview" [ref=f15e11] [cursor=pointer]:
+            - /url: /admin
+          - link "Messages 1 unread" [ref=f15e17] [cursor=pointer]:
+            - /url: /admin/messages
+            - text: Messages
+            - generic [ref=f15e21]:
+              - text: "1"
+              - generic [ref=f15e22]: unread
+          - link "Profile" [ref=f15e23] [cursor=pointer]:
+            - /url: /admin/profile
+          - link "Projects" [ref=f15e27] [cursor=pointer]:
+            - /url: /admin/projects
+          - link "Experience" [ref=f15e30] [cursor=pointer]:
+            - /url: /admin/experience
+          - link "Skills" [ref=f15e34] [cursor=pointer]:
+            - /url: /admin/skills
+          - link "Services" [ref=f15e37] [cursor=pointer]:
+            - /url: /admin/services
+          - link "Testimonials" [ref=f15e43] [cursor=pointer]:
+            - /url: /admin/testimonials
+        - generic [ref=f15e48]:
+          - paragraph [ref=f15e50]: moizabdul320@gmail.com
+          - link "View site" [ref=f15e51] [cursor=pointer]:
+            - /url: /
+          - button "Sign out" [ref=f15e57]
+    - main [ref=f15e62]
+  - button "Open Next.js Dev Tools" [ref=f15e69] [cursor=pointer]
+  - alert [ref=f15e73]

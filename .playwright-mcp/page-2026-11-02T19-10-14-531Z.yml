@@ -1,0 +1,38 @@
+- generic [active] [ref=f18e1]:
+  - generic [ref=f18e2]:
+    - complementary [ref=f18e3]:
+      - generic [ref=f18e4]:
+        - link "A Admin Portfolio content" [ref=f18e5] [cursor=pointer]:
+          - /url: /admin
+          - generic [ref=f18e6]: A
+          - generic [ref=f18e7]:
+            - generic [ref=f18e8]: Admin
+            - generic [ref=f18e9]: Portfolio content
+        - navigation "Admin" [ref=f18e10]:
+          - link "Overview" [ref=f18e11] [cursor=pointer]:
+            - /url: /admin
+          - link "Messages 1 unread" [ref=f18e17] [cursor=pointer]:
+            - /url: /admin/messages
+            - text: Messages
+            - generic [ref=f18e21]:
+              - text: "1"
+              - generic [ref=f18e22]: unread
+          - link "Profile" [ref=f18e23] [cursor=pointer]:
+            - /url: /admin/profile
+          - link "Projects" [ref=f18e27] [cursor=pointer]:
+            - /url: /admin/projects
+          - link "Experience" [ref=f18e30] [cursor=pointer]:
+            - /url: /admin/experience
+          - link "Skills" [ref=f18e34] [cursor=pointer]:
+            - /url: /admin/skills
+          - link "Services" [ref=f18e37] [cursor=pointer]:
+            - /url: /admin/services
+          - link "Testimonials" [ref=f18e43] [cursor=pointer]:
+            - /url: /admin/testimonials
+        - generic [ref=f18e48]:
+          - paragraph [ref=f18e50]: moizabdul320@gmail.com
+          - link "View site" [ref=f18e51] [cursor=pointer]:
+            - /url: /
+          - button "Sign out" [ref=f18e57]
+    - main [ref=f18e62]
+  - alert [ref=f18e64]

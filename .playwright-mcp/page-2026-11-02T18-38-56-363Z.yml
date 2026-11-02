@@ -1,0 +1,12 @@
+- generic [active] [ref=f13e1]:
+  - main [ref=f13e2]:
+    - generic [ref=f13e3]:
+      - heading "Sign in" [level=1] [ref=f13e4]
+      - paragraph [ref=f13e5]: Manage the content of your portfolio.
+      - generic [ref=f13e6]: Email
+      - textbox "Email" [ref=f13e7]
+      - generic [ref=f13e8]: Password
+      - textbox "Password" [ref=f13e9]
+      - button "Sign in" [ref=f13e10]
+  - button "Open Next.js Dev Tools" [ref=f13e16] [cursor=pointer]
+  - alert [ref=f13e20]

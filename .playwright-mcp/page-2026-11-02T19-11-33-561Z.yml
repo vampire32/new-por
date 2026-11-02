@@ -1,0 +1,96 @@
+- generic [active] [ref=f21e1]:
+  - generic [ref=f21e2]:
+    - complementary [ref=f21e3]:
+      - generic [ref=f21e4]:
+        - link "A Admin Portfolio content" [ref=f21e5] [cursor=pointer]:
+          - /url: /admin
+          - generic [ref=f21e6]: A
+          - generic [ref=f21e7]:
+            - generic [ref=f21e8]: Admin
+            - generic [ref=f21e9]: Portfolio content
+        - navigation "Admin" [ref=f21e10]:
+          - link "Overview" [ref=f21e11] [cursor=pointer]:
+            - /url: /admin
+          - link "Messages 1 unread" [ref=f21e17] [cursor=pointer]:
+            - /url: /admin/messages
+            - text: Messages
+            - generic [ref=f21e21]:
+              - text: "1"
+              - generic [ref=f21e22]: unread
+          - link "Profile" [ref=f21e23] [cursor=pointer]:
+            - /url: /admin/profile
+          - link "Projects" [ref=f21e27] [cursor=pointer]:
+            - /url: /admin/projects
+          - link "Experience" [ref=f21e30] [cursor=pointer]:
+            - /url: /admin/experience
+          - link "Skills" [ref=f21e34] [cursor=pointer]:
+            - /url: /admin/skills
+          - link "Services" [ref=f21e37] [cursor=pointer]:
+            - /url: /admin/services
+          - link "Testimonials" [ref=f21e43] [cursor=pointer]:
+            - /url: /admin/testimonials
+        - generic [ref=f21e48]:
+          - paragraph [ref=f21e50]: moizabdul320@gmail.com
+          - link "View site" [ref=f21e51] [cursor=pointer]:
+            - /url: /
+          - button "Sign out" [ref=f21e57]
+    - main [ref=f21e62]:
+      - generic [ref=f21e63]:
+        - link "All projects" [ref=f21e64] [cursor=pointer]:
+          - /url: /admin/projects
+        - heading "New project" [level=1] [ref=f21e67]
+        - generic [ref=f21e68]:
+          - generic [ref=f21e69]:
+            - generic [ref=f21e70]: Title (required)
+            - textbox "Title (required)" [ref=f21e71]
+          - generic [ref=f21e72]:
+            - text: URL slug
+            - textbox "URL slug" [ref=f21e73]
+            - paragraph [ref=f21e74]: Leave empty to make one from the title.
+          - generic [ref=f21e75]:
+            - text: One-line summary
+            - textbox "One-line summary" [ref=f21e76]
+          - generic [ref=f21e77]:
+            - generic [ref=f21e78]:
+              - text: Your role
+              - textbox "Your role" [ref=f21e79]
+            - generic [ref=f21e80]:
+              - text: Year
+              - spinbutton "Year" [ref=f21e81]
+          - generic [ref=f21e82]:
+            - text: Tech stack
+            - textbox "Tech stack" [ref=f21e83]
+            - paragraph [ref=f21e84]: Comma separated, e.g. Next.js, Node.js, PostgreSQL
+          - generic [ref=f21e85]:
+            - text: The problem
+            - textbox "The problem" [ref=f21e86]
+          - generic [ref=f21e87]:
+            - text: What I built
+            - textbox "What I built" [ref=f21e88]
+          - generic [ref=f21e89]:
+            - text: Outcome
+            - textbox "Outcome" [ref=f21e90]
+          - generic [ref=f21e91]:
+            - generic [ref=f21e92]:
+              - text: Live URL
+              - textbox "Live URL" [ref=f21e93]
+            - generic [ref=f21e94]:
+              - text: Source code URL
+              - textbox "Source code URL" [ref=f21e95]
+          - generic [ref=f21e96]:
+            - text: Cover image
+            - button "Cover image" [ref=f21e98]
+            - paragraph [ref=f21e99]: Landscape (16:10) screenshot. Max 4 MB.
+          - generic [ref=f21e100]:
+            - checkbox "Published Visible on /work and its own page." [ref=f21e101]
+            - generic [ref=f21e102]:
+              - generic [ref=f21e103]: Published
+              - generic [ref=f21e104]: Visible on /work and its own page.
+          - generic [ref=f21e105]:
+            - checkbox "Featured Also shown on the home page (needs Published)." [ref=f21e106]
+            - generic [ref=f21e107]:
+              - generic [ref=f21e108]: Featured
+              - generic [ref=f21e109]: Also shown on the home page (needs Published).
+          - button "Create project" [ref=f21e111]
+  - button "Open Next.js Dev Tools" [ref=f21e117] [cursor=pointer]
+  - alert [ref=f21e121]

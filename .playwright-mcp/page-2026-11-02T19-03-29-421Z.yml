@@ -1,0 +1,149 @@
+- generic [active] [ref=f12e1]:
+  - generic [ref=f12e2]:
+    - complementary [ref=f12e3]:
+      - generic [ref=f12e4]:
+        - link "Admin" [ref=f12e5] [cursor=pointer]:
+          - /url: /admin
+        - navigation "Admin" [ref=f12e6]:
+          - link "Messages 1 unread" [ref=f12e7] [cursor=pointer]:
+            - /url: /admin/messages
+            - text: Messages
+            - generic "1 unread" [ref=f12e8]: "1"
+          - link "Profile" [ref=f12e9] [cursor=pointer]:
+            - /url: /admin/profile
+          - link "Projects" [ref=f12e10] [cursor=pointer]:
+            - /url: /admin/projects
+          - link "Experience" [ref=f12e11] [cursor=pointer]:
+            - /url: /admin/experience
+          - link "Skills" [ref=f12e12] [cursor=pointer]:
+            - /url: /admin/skills
+          - link "Services" [ref=f12e13] [cursor=pointer]:
+            - /url: /admin/services
+          - link "Testimonials" [ref=f12e14] [cursor=pointer]:
+            - /url: /admin/testimonials
+        - generic [ref=f12e15]:
+          - link "View site" [ref=f12e16] [cursor=pointer]:
+            - /url: /
+          - button "Sign out" [ref=f12e18]
+    - main [ref=f12e19]:
+      - generic [ref=f12e20]:
+        - generic [ref=f12e22]:
+          - heading "Skills" [level=1] [ref=f12e23]
+          - paragraph [ref=f12e24]: Grouped by category. Categories with no skills are hidden on the site.
+        - generic [ref=f12e25]:
+          - generic [ref=f12e26]:
+            - list [ref=f12e27]:
+              - listitem [ref=f12e28]:
+                - paragraph [ref=f12e30]: Frontend
+                - generic [ref=f12e31]:
+                  - button "Move Frontend up" [disabled] [ref=f12e33]: ↑
+                  - button "Move Frontend down" [ref=f12e35]: ↓
+                  - button "Delete" [ref=f12e37]
+            - list "Frontend skills" [ref=f12e38]:
+              - listitem [ref=f12e39]:
+                - text: React
+                - button "Move React left" [disabled] [ref=f12e41]: ‹
+                - button "Move React right" [ref=f12e43]: ›
+                - button "Remove React" [ref=f12e45]: ×
+              - listitem [ref=f12e46]:
+                - text: Next.js
+                - button "Move Next.js left" [ref=f12e48]: ‹
+                - button "Move Next.js right" [ref=f12e50]: ›
+                - button "Remove Next.js" [ref=f12e52]: ×
+              - listitem [ref=f12e53]:
+                - text: Tailwind CSS
+                - button "Move Tailwind CSS left" [ref=f12e55]: ‹
+                - button "Move Tailwind CSS right" [disabled] [ref=f12e57]: ›
+                - button "Remove Tailwind CSS" [ref=f12e59]: ×
+            - generic [ref=f12e60]:
+              - textbox "New Frontend skill" [ref=f12e61]
+              - button "Add skill" [ref=f12e63]
+          - generic [ref=f12e64]:
+            - list [ref=f12e65]:
+              - listitem [ref=f12e66]:
+                - paragraph [ref=f12e68]: Backend
+                - generic [ref=f12e69]:
+                  - button "Move Backend up" [ref=f12e71]: ↑
+                  - button "Move Backend down" [ref=f12e73]: ↓
+                  - button "Delete" [ref=f12e75]
+            - list "Backend skills" [ref=f12e76]:
+              - listitem [ref=f12e77]:
+                - text: Node.js
+                - button "Move Node.js left" [disabled] [ref=f12e79]: ‹
+                - button "Move Node.js right" [ref=f12e81]: ›
+                - button "Remove Node.js" [ref=f12e83]: ×
+              - listitem [ref=f12e84]:
+                - text: Express
+                - button "Move Express left" [ref=f12e86]: ‹
+                - button "Move Express right" [ref=f12e88]: ›
+                - button "Remove Express" [ref=f12e90]: ×
+              - listitem [ref=f12e91]:
+                - text: REST APIs
+                - button "Move REST APIs left" [ref=f12e93]: ‹
+                - button "Move REST APIs right" [disabled] [ref=f12e95]: ›
+                - button "Remove REST APIs" [ref=f12e97]: ×
+            - generic [ref=f12e98]:
+              - textbox "New Backend skill" [ref=f12e99]
+              - button "Add skill" [ref=f12e101]
+          - generic [ref=f12e102]:
+            - list [ref=f12e103]:
+              - listitem [ref=f12e104]:
+                - paragraph [ref=f12e106]: Database
+                - generic [ref=f12e107]:
+                  - button "Move Database up" [ref=f12e109]: ↑
+                  - button "Move Database down" [ref=f12e111]: ↓
+                  - button "Delete" [ref=f12e113]
+            - list "Database skills" [ref=f12e114]:
+              - listitem [ref=f12e115]:
+                - text: PostgreSQL
+                - button "Move PostgreSQL left" [disabled] [ref=f12e117]: ‹
+                - button "Move PostgreSQL right" [ref=f12e119]: ›
+                - button "Remove PostgreSQL" [ref=f12e121]: ×
+              - listitem [ref=f12e122]:
+                - text: Supabase
+                - button "Move Supabase left" [ref=f12e124]: ‹
+                - button "Move Supabase right" [ref=f12e126]: ›
+                - button "Remove Supabase" [ref=f12e128]: ×
+              - listitem [ref=f12e129]:
+                - text: Redis
+                - button "Move Redis left" [ref=f12e131]: ‹
+                - button "Move Redis right" [disabled] [ref=f12e133]: ›
+                - button "Remove Redis" [ref=f12e135]: ×
+            - generic [ref=f12e136]:
+              - textbox "New Database skill" [ref=f12e137]
+              - button "Add skill" [ref=f12e139]
+          - generic [ref=f12e140]:
+            - list [ref=f12e141]:
+              - listitem [ref=f12e142]:
+                - paragraph [ref=f12e144]: DevOps
+                - generic [ref=f12e145]:
+                  - button "Move DevOps up" [ref=f12e147]: ↑
+                  - button "Move DevOps down" [disabled] [ref=f12e149]: ↓
+                  - button "Delete" [ref=f12e151]
+            - list "DevOps skills" [ref=f12e152]:
+              - listitem [ref=f12e153]:
+                - text: Vercel
+                - button "Move Vercel left" [disabled] [ref=f12e155]: ‹
+                - button "Move Vercel right" [ref=f12e157]: ›
+                - button "Remove Vercel" [ref=f12e159]: ×
+              - listitem [ref=f12e160]:
+                - text: Docker
+                - button "Move Docker left" [ref=f12e162]: ‹
+                - button "Move Docker right" [ref=f12e164]: ›
+                - button "Remove Docker" [ref=f12e166]: ×
+              - listitem [ref=f12e167]:
+                - text: GitHub Actions
+                - button "Move GitHub Actions left" [ref=f12e169]: ‹
+                - button "Move GitHub Actions right" [disabled] [ref=f12e171]: ›
+                - button "Remove GitHub Actions" [ref=f12e173]: ×
+            - generic [ref=f12e174]:
+              - textbox "New DevOps skill" [ref=f12e175]
+              - button "Add skill" [ref=f12e177]
+        - generic [ref=f12e178]:
+          - heading "Add category" [level=2] [ref=f12e179]
+          - generic [ref=f12e180]:
+            - textbox "Category name" [ref=f12e181]:
+              - /placeholder: e.g. Mobile
+            - button "Add category" [ref=f12e183]
+  - button "Open Next.js Dev Tools" [ref=f12e189] [cursor=pointer]
+  - alert [ref=f12e193]

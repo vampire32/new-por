@@ -1,0 +1,102 @@
+- generic [active] [ref=f14e1]:
+  - generic [ref=f14e2]:
+    - complementary [ref=f14e3]:
+      - generic [ref=f14e4]:
+        - link "A Admin Portfolio content" [ref=f14e5] [cursor=pointer]:
+          - /url: /admin
+          - generic [ref=f14e6]: A
+          - generic [ref=f14e7]:
+            - generic [ref=f14e8]: Admin
+            - generic [ref=f14e9]: Portfolio content
+        - navigation "Admin" [ref=f14e10]:
+          - link "Overview" [ref=f14e11] [cursor=pointer]:
+            - /url: /admin
+          - link "Messages 1 unread" [ref=f14e17] [cursor=pointer]:
+            - /url: /admin/messages
+            - text: Messages
+            - generic [ref=f14e21]:
+              - text: "1"
+              - generic [ref=f14e22]: unread
+          - link "Profile" [ref=f14e23] [cursor=pointer]:
+            - /url: /admin/profile
+          - link "Projects" [ref=f14e27] [cursor=pointer]:
+            - /url: /admin/projects
+          - link "Experience" [ref=f14e30] [cursor=pointer]:
+            - /url: /admin/experience
+          - link "Skills" [ref=f14e34] [cursor=pointer]:
+            - /url: /admin/skills
+          - link "Services" [ref=f14e37] [cursor=pointer]:
+            - /url: /admin/services
+          - link "Testimonials" [ref=f14e43] [cursor=pointer]:
+            - /url: /admin/testimonials
+        - generic [ref=f14e48]:
+          - paragraph [ref=f14e50]: moizabdul320@gmail.com
+          - link "View site" [ref=f14e51] [cursor=pointer]:
+            - /url: /
+          - button "Sign out" [ref=f14e57]
+    - main [ref=f14e62]:
+      - generic [ref=f14e63]:
+        - generic [ref=f14e64]:
+          - generic [ref=f14e65]:
+            - heading "Overview" [level=1] [ref=f14e66]
+            - paragraph [ref=f14e67]: Everything on your portfolio, in one place. Changes show on the site as soon as you save.
+          - link "New project" [ref=f14e68] [cursor=pointer]:
+            - /url: /admin/projects/new
+        - generic [ref=f14e70]:
+          - link [ref=f14e71] [cursor=pointer]:
+            - /url: /admin/projects
+            - paragraph [ref=f14e75]: "4"
+            - paragraph [ref=f14e76]: Projects
+            - paragraph [ref=f14e77]: 3 published
+          - link [ref=f14e78] [cursor=pointer]:
+            - /url: /admin/messages
+            - paragraph [ref=f14e83]: "1"
+            - paragraph [ref=f14e84]: Unread messages
+            - paragraph [ref=f14e85]: From the contact form
+          - link [ref=f14e86] [cursor=pointer]:
+            - /url: /admin/skills
+            - paragraph [ref=f14e90]: "12"
+            - paragraph [ref=f14e91]: Skills
+            - paragraph [ref=f14e92]: Shown in the stack strip
+          - link [ref=f14e93] [cursor=pointer]:
+            - /url: /admin/testimonials
+            - paragraph [ref=f14e99]: "0"
+            - paragraph [ref=f14e100]: Testimonials
+            - paragraph [ref=f14e101]: Section hidden until you add one
+        - generic [ref=f14e102]:
+          - generic [ref=f14e103]:
+            - generic [ref=f14e104]:
+              - heading "Latest messages" [level=2] [ref=f14e105]
+              - link "All messages" [ref=f14e106] [cursor=pointer]:
+                - /url: /admin/messages
+            - list [ref=f14e109]:
+              - listitem [ref=f14e110]:
+                - generic [ref=f14e112]:
+                  - paragraph [ref=f14e113]:
+                    - text: Real Visitor
+                    - generic [ref=f14e114]: (unread)
+                  - paragraph [ref=f14e115]: Valid message test
+                - generic [ref=f14e116]: Nov 2, 2026
+          - generic [ref=f14e117]:
+            - heading "Edit sections" [level=2] [ref=f14e118]
+            - list [ref=f14e119]:
+              - listitem [ref=f14e120]:
+                - link "Profile Name, headline, photo, CV, links" [ref=f14e121] [cursor=pointer]:
+                  - /url: /admin/profile
+                  - generic [ref=f14e126]:
+                    - generic [ref=f14e127]: Profile
+                    - generic [ref=f14e128]: Name, headline, photo, CV, links
+              - listitem [ref=f14e131]:
+                - link "Experience 2 roles" [ref=f14e132] [cursor=pointer]:
+                  - /url: /admin/experience
+                  - generic [ref=f14e137]:
+                    - generic [ref=f14e138]: Experience
+                    - generic [ref=f14e139]: 2 roles
+              - listitem [ref=f14e142]:
+                - link "Services 3 services" [ref=f14e143] [cursor=pointer]:
+                  - /url: /admin/services
+                  - generic [ref=f14e150]:
+                    - generic [ref=f14e151]: Services
+                    - generic [ref=f14e152]: 3 services
+  - button "Open Next.js Dev Tools" [ref=f14e160] [cursor=pointer]
+  - alert [ref=f14e164]

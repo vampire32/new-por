@@ -1,0 +1,296 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Your Name" [ref=e5] [cursor=pointer]:
+        - /url: /
+      - navigation "Main" [ref=e6]:
+        - link "Work" [ref=e7] [cursor=pointer]:
+          - /url: /work
+        - link "About" [ref=e8] [cursor=pointer]:
+          - /url: /#about
+        - link "Experience" [ref=e9] [cursor=pointer]:
+          - /url: /#experience
+        - link "Skills" [ref=e10] [cursor=pointer]:
+          - /url: /#skills
+        - link "Services" [ref=e11] [cursor=pointer]:
+          - /url: /#services
+        - link "Start a project" [ref=e12] [cursor=pointer]:
+          - /url: /#contact
+  - main [ref=e13]:
+    - generic [ref=e14]:
+      - generic [ref=e15]:
+        - generic [ref=e16]:
+          - paragraph [ref=e17]: Open to new projects
+          - heading "I build web products people actually use." [level=1] [ref=e21]
+          - paragraph [ref=e22]: Full stack developer. I take ideas from a rough sketch to a fast, reliable app in production.
+          - generic [ref=e23]:
+            - link "Start a project" [ref=e24] [cursor=pointer]:
+              - /url: "#contact"
+            - link "See case studies" [ref=e25] [cursor=pointer]:
+              - /url: /work
+        - generic [ref=e27]:
+          - generic [ref=e28]:
+            - generic [ref=e29]: YN
+            - generic [ref=e30]:
+              - paragraph [ref=e31]: Your Name
+              - paragraph [ref=e32]: Full stack developer at Freelance
+          - generic [ref=e33]:
+            - generic [ref=e34]:
+              - term [ref=e35]: Based in
+              - definition [ref=e36]: Remote
+            - generic [ref=e37]:
+              - term [ref=e38]: Availability
+              - definition [ref=e39]: Taking new work
+            - generic [ref=e40]:
+              - term [ref=e41]: Email
+              - definition [ref=e42]:
+                - link "hello@example.com" [ref=e43] [cursor=pointer]:
+                  - /url: mailto:hello@example.com
+          - list "Main stack" [ref=e44]:
+            - listitem [ref=e45]: React
+            - listitem [ref=e46]: Next.js
+            - listitem [ref=e47]: Tailwind CSS
+            - listitem [ref=e48]: Node.js
+            - listitem [ref=e49]: Express
+            - listitem [ref=e50]: REST APIs
+            - listitem [ref=e51]: PostgreSQL
+            - listitem [ref=e52]: Supabase
+      - generic [ref=e54]:
+        - generic [ref=e55]:
+          - term [ref=e56]: building for the web
+          - definition [ref=e57]:
+            - generic [ref=e58]: 6+ years
+            - generic [ref=e59]: building for the web
+        - generic [ref=e60]:
+          - term [ref=e61]: shipped to production
+          - definition [ref=e62]:
+            - generic [ref=e63]: 3 projects
+            - generic [ref=e64]: shipped to production
+        - generic [ref=e65]:
+          - term [ref=e66]: working with clients worldwide
+          - definition [ref=e67]:
+            - generic [ref=e68]: Remote
+            - generic [ref=e69]: working with clients worldwide
+        - generic [ref=e70]:
+          - term [ref=e71]: main stack
+          - definition [ref=e72]:
+            - generic [ref=e73]: React, Next.js, Tailwind CSS
+            - generic [ref=e74]: main stack
+    - generic [ref=e76]:
+      - generic [ref=e77]:
+        - generic [ref=e78]:
+          - heading "Selected work" [level=2] [ref=e79]
+          - paragraph [ref=e80]: A few projects I'm proud of, with the problem behind each one and what changed after.
+        - link "See all projects" [ref=e81] [cursor=pointer]:
+          - /url: /work
+      - generic [ref=e82]:
+        - article [ref=e83]:
+          - link [aria-hidden] [ref=e84] [cursor=pointer]:
+            - /url: /work/clinic-booking
+            - generic [ref=e85]:
+              - generic [ref=e86]: clinic-booking
+              - paragraph [ref=e99]: Clinic booking platform
+          - generic [ref=e106]:
+            - paragraph [ref=e107]: Full stack developer, 2025
+            - heading [level=3] [ref=e108]:
+              - link "Clinic booking platform" [ref=e109] [cursor=pointer]:
+                - /url: /work/clinic-booking
+            - paragraph [ref=e110]: Online appointments and reminders for a chain of five clinics.
+            - generic [ref=e111]:
+              - generic [ref=e112]:
+                - term [ref=e113]: The problem
+                - definition [ref=e114]: Receptionists booked every appointment by phone, and no-shows cost the clinics about a fifth of their slots.
+              - generic [ref=e115]:
+                - term [ref=e116]: The result
+                - definition [ref=e117]: No-shows dropped by 38% in the first three months, and phone bookings fell by half.
+            - list "Technologies" [ref=e119]:
+              - listitem [ref=e120]: Next.js
+              - listitem [ref=e121]: Node.js
+              - listitem [ref=e122]: PostgreSQL
+              - listitem [ref=e123]: Stripe
+            - link "Read the case study" [ref=e124] [cursor=pointer]:
+              - /url: /work/clinic-booking
+        - article [ref=e125]:
+          - link [aria-hidden] [ref=e126] [cursor=pointer]:
+            - /url: /work/inventory-dashboard
+            - generic [ref=e127]:
+              - generic [ref=e128]: inventory-dashboard
+              - paragraph [ref=e141]: Inventory dashboard
+          - generic [ref=e148]:
+            - paragraph [ref=e149]: Lead developer, 2024
+            - heading [level=3] [ref=e150]:
+              - link "Inventory dashboard" [ref=e151] [cursor=pointer]:
+                - /url: /work/inventory-dashboard
+            - paragraph [ref=e152]: Real-time stock tracking for a wholesale distributor.
+            - generic [ref=e153]:
+              - generic [ref=e154]:
+                - term [ref=e155]: The problem
+                - definition [ref=e156]: Stock counts lived in spreadsheets that were out of date by lunchtime.
+              - generic [ref=e157]:
+                - term [ref=e158]: The result
+                - definition [ref=e159]: Stock-outs went from weekly to rare, and the monthly count takes two hours instead of two days.
+            - list "Technologies" [ref=e161]:
+              - listitem [ref=e162]: React
+              - listitem [ref=e163]: Express
+              - listitem [ref=e164]: PostgreSQL
+              - listitem [ref=e165]: Redis
+            - link "Read the case study" [ref=e166] [cursor=pointer]:
+              - /url: /work/inventory-dashboard
+    - generic [ref=e168]:
+      - generic [ref=e170]:
+        - heading "About" [level=2] [ref=e171]
+        - paragraph [ref=e172]: The short version of who I am and how I work.
+      - generic [ref=e174]:
+        - generic [ref=e176]:
+          - paragraph [ref=e177]: "I started building websites for local businesses and stayed for the problem solving. Today I work across the stack: React and Next.js on the front, Node and Postgres on the back, and whatever it takes to ship."
+          - paragraph [ref=e178]: I like small teams, clear goals and code that the next person can read. I write things down, I ask questions early, and I care about the details users notice.
+        - complementary [ref=e179]:
+          - generic [ref=e180]:
+            - generic [ref=e181]:
+              - term [ref=e182]: Experience
+              - definition [ref=e183]: 6+ years
+            - generic [ref=e184]:
+              - term [ref=e185]: Projects shipped
+              - definition [ref=e186]: "3"
+            - generic [ref=e187]:
+              - term [ref=e188]: Based in
+              - definition [ref=e189]: Remote
+            - generic [ref=e190]:
+              - term [ref=e191]: Availability
+              - definition [ref=e192]: Taking new work
+    - generic [ref=e194]:
+      - heading "Experience" [level=2] [ref=e197]
+      - list [ref=e199]:
+        - listitem [ref=e200]:
+          - paragraph [ref=e202]: Jan 2023 to Present
+          - heading "Full stack developer at Freelance" [level=3] [ref=e203]:
+            - text: Full stack developer
+            - generic [ref=e204]: at Freelance
+          - paragraph [ref=e205]: "Building web apps for clinics, retailers and startups: from first call to production and support."
+        - listitem [ref=e206]:
+          - paragraph [ref=e208]: Jun 2020 to Dec 2022
+          - heading "Software engineer at Example Agency" [level=3] [ref=e209]:
+            - text: Software engineer
+            - generic [ref=e210]: at Example Agency
+          - paragraph [ref=e211]: Built and maintained client sites and internal tools in React, Node and PostgreSQL.
+    - generic [ref=e213]:
+      - generic [ref=e215]:
+        - heading "Skills" [level=2] [ref=e216]
+        - paragraph [ref=e217]: The tools I reach for, grouped by where they sit in the stack.
+      - generic [ref=e219]:
+        - generic [ref=e220]:
+          - heading "Frontend 3" [level=3] [ref=e221]:
+            - text: Frontend
+            - generic [ref=e222]: "3"
+          - list [ref=e223]:
+            - listitem [ref=e224]: React
+            - listitem [ref=e225]: Next.js
+            - listitem [ref=e226]: Tailwind CSS
+        - generic [ref=e227]:
+          - heading "Backend 3" [level=3] [ref=e228]:
+            - text: Backend
+            - generic [ref=e229]: "3"
+          - list [ref=e230]:
+            - listitem [ref=e231]: Node.js
+            - listitem [ref=e232]: Express
+            - listitem [ref=e233]: REST APIs
+        - generic [ref=e234]:
+          - heading "Database 3" [level=3] [ref=e235]:
+            - text: Database
+            - generic [ref=e236]: "3"
+          - list [ref=e237]:
+            - listitem [ref=e238]: PostgreSQL
+            - listitem [ref=e239]: Supabase
+            - listitem [ref=e240]: Redis
+        - generic [ref=e241]:
+          - heading "DevOps 3" [level=3] [ref=e242]:
+            - text: DevOps
+            - generic [ref=e243]: "3"
+          - list [ref=e244]:
+            - listitem [ref=e245]: Vercel
+            - listitem [ref=e246]: Docker
+            - listitem [ref=e247]: GitHub Actions
+    - generic [ref=e249]:
+      - generic [ref=e251]:
+        - heading "Services" [level=2] [ref=e252]
+        - paragraph [ref=e253]: What I can take off your plate, from a first version to fixing what's already live.
+        - link "Discuss your project" [ref=e255] [cursor=pointer]:
+          - /url: "#contact"
+      - generic [ref=e257]:
+        - generic [ref=e258]:
+          - heading "Web applications" [level=3] [ref=e260]
+          - paragraph [ref=e261]: Dashboards, booking systems and internal tools, built end to end.
+        - generic [ref=e262]:
+          - heading "APIs and integrations" [level=3] [ref=e264]
+          - paragraph [ref=e265]: REST APIs, payment and third-party integrations, and data syncs.
+        - generic [ref=e266]:
+          - heading "Performance and fixes" [level=3] [ref=e268]
+          - paragraph [ref=e269]: Speeding up slow apps and fixing the bugs nobody else could.
+    - generic [ref=e272]:
+      - generic [ref=e273]:
+        - heading "Let's build something good." [level=2] [ref=e274]
+        - paragraph [ref=e275]: Tell me about your project or the role you're hiring for. I usually reply within a day.
+        - link "hello@example.com" [ref=e276] [cursor=pointer]:
+          - /url: mailto:hello@example.com
+        - list [ref=e277]:
+          - listitem [ref=e278]:
+            - link "GitHub" [ref=e279] [cursor=pointer]:
+              - /url: https://github.com/
+          - listitem [ref=e280]:
+            - link "LinkedIn" [ref=e281] [cursor=pointer]:
+              - /url: https://www.linkedin.com/
+      - generic [ref=e283]:
+        - generic [ref=e284]:
+          - generic [ref=e285]:
+            - text: Name
+            - textbox "Name" [ref=e286]
+          - generic [ref=e287]:
+            - text: Email
+            - textbox "Email" [ref=e288]
+        - generic [ref=e289]:
+          - text: Message
+          - textbox "Message" [ref=e290]:
+            - /placeholder: What are you building, and when do you need it?
+        - generic [aria-hidden] [ref=e291]:
+          - text: Website
+          - textbox [ref=e292]
+        - button "Send message" [ref=e293]
+  - contentinfo [ref=e294]:
+    - generic [ref=e295]:
+      - generic [ref=e296]:
+        - paragraph [ref=e297]: Your Name
+        - paragraph [ref=e298]: I build web products people actually use.
+      - navigation "Footer" [ref=e299]:
+        - list [ref=e300]:
+          - listitem [ref=e301]:
+            - link "Work" [ref=e302] [cursor=pointer]:
+              - /url: /work
+          - listitem [ref=e303]:
+            - link "About" [ref=e304] [cursor=pointer]:
+              - /url: /#about
+          - listitem [ref=e305]:
+            - link "Experience" [ref=e306] [cursor=pointer]:
+              - /url: /#experience
+          - listitem [ref=e307]:
+            - link "Skills" [ref=e308] [cursor=pointer]:
+              - /url: /#skills
+          - listitem [ref=e309]:
+            - link "Services" [ref=e310] [cursor=pointer]:
+              - /url: /#services
+          - listitem [ref=e311]:
+            - link "Contact" [ref=e312] [cursor=pointer]:
+              - /url: /#contact
+      - list [ref=e313]:
+        - listitem [ref=e314]:
+          - link "GitHub" [ref=e315] [cursor=pointer]:
+            - /url: https://github.com/
+        - listitem [ref=e316]:
+          - link "LinkedIn" [ref=e317] [cursor=pointer]:
+            - /url: https://www.linkedin.com/
+    - generic [ref=e319]:
+      - paragraph [ref=e320]: Your Name, Remote
+      - link "Back to top" [ref=e321] [cursor=pointer]:
+        - /url: "#main"
+  - button "Open Next.js Dev Tools" [ref=e327] [cursor=pointer]

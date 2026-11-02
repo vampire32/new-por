@@ -1,0 +1,104 @@
+- generic [active] [ref=f23e1]:
+  - generic [ref=f23e2]:
+    - complementary [ref=f23e3]:
+      - generic [ref=f23e4]:
+        - link "A Admin Portfolio content" [ref=f23e5] [cursor=pointer]:
+          - /url: /admin
+          - generic [ref=f23e6]: A
+          - generic [ref=f23e7]:
+            - generic [ref=f23e8]: Admin
+            - generic [ref=f23e9]: Portfolio content
+        - navigation "Admin" [ref=f23e10]:
+          - link "Overview" [ref=f23e11] [cursor=pointer]:
+            - /url: /admin
+          - link "Messages 1 unread" [ref=f23e17] [cursor=pointer]:
+            - /url: /admin/messages
+            - text: Messages
+            - generic [ref=f23e21]:
+              - text: "1"
+              - generic [ref=f23e22]: unread
+          - link "Profile" [ref=f23e23] [cursor=pointer]:
+            - /url: /admin/profile
+          - link "Projects" [ref=f23e27] [cursor=pointer]:
+            - /url: /admin/projects
+          - link "Experience" [ref=f23e30] [cursor=pointer]:
+            - /url: /admin/experience
+          - link "Skills" [ref=f23e34] [cursor=pointer]:
+            - /url: /admin/skills
+          - link "Services" [ref=f23e37] [cursor=pointer]:
+            - /url: /admin/services
+          - link "Testimonials" [ref=f23e43] [cursor=pointer]:
+            - /url: /admin/testimonials
+        - generic [ref=f23e48]:
+          - paragraph [ref=f23e50]: moizabdul320@gmail.com
+          - link "View site" [ref=f23e51] [cursor=pointer]:
+            - /url: /
+          - button "Sign out" [ref=f23e57]
+    - main [ref=f23e62]:
+      - generic [ref=f23e63]:
+        - generic [ref=f23e65]:
+          - heading "Profile" [level=1] [ref=f23e66]
+          - paragraph [ref=f23e67]: Your name, intro and links. Shown in the hero, About, Contact and footer.
+        - generic [ref=f23e68]:
+          - group "Hero" [ref=f23e69]:
+            - generic [ref=f23e71]:
+              - text: Name
+              - textbox "Name" [ref=f23e72]: Your Name
+            - generic [ref=f23e73]:
+              - text: Headline
+              - textbox "Headline" [ref=f23e74]: I build web products people actually use.
+              - paragraph [ref=f23e75]: The big line at the top of the home page.
+            - generic [ref=f23e76]:
+              - text: Intro
+              - textbox "Intro" [ref=f23e77]: Full stack developer. I take ideas from a rough sketch to a fast, reliable app in production.
+            - generic [ref=f23e78]:
+              - checkbox "Open to new projects Shows the availability badge in the hero." [checked] [ref=f23e79]
+              - generic [ref=f23e80]:
+                - generic [ref=f23e81]: Open to new projects
+                - generic [ref=f23e82]: Shows the availability badge in the hero.
+            - generic [ref=f23e83]:
+              - text: Photo
+              - button "Photo" [ref=f23e85]
+              - paragraph [ref=f23e86]: Portrait works best (4:5). Max 4 MB per save.
+            - generic [ref=f23e87]:
+              - text: CV
+              - button "CV" [ref=f23e89]
+              - paragraph [ref=f23e90]: PDF, max 4 MB. Adds a Download CV link.
+          - group "About" [ref=f23e91]:
+            - generic [ref=f23e93]:
+              - text: About text
+              - textbox "About text" [ref=f23e94]: "I started building websites for local businesses and stayed for the problem solving. Today I work across the stack: React and Next.js on the front, Node and Postgres on the back, and whatever it takes to ship. I like small teams, clear goals and code that the next person can read. I write things down, I ask questions early, and I care about the details users notice."
+              - paragraph [ref=f23e95]: Leave a blank line between paragraphs.
+            - generic [ref=f23e96]:
+              - text: About image
+              - button "About image" [ref=f23e98]
+              - paragraph [ref=f23e99]: Optional. Landscape (3:2).
+          - group "Contact and links" [ref=f23e100]:
+            - generic [ref=f23e102]:
+              - text: Email
+              - textbox "Email" [ref=f23e103]: hello@example.com
+            - generic [ref=f23e104]:
+              - text: Location
+              - textbox "Location" [ref=f23e105]:
+                - /placeholder: Remote
+                - text: Remote
+            - generic [ref=f23e106]:
+              - text: GitHub URL
+              - textbox "GitHub URL" [ref=f23e107]: https://github.com/
+            - generic [ref=f23e108]:
+              - text: LinkedIn URL
+              - textbox "LinkedIn URL" [ref=f23e109]: https://www.linkedin.com/
+            - generic [ref=f23e110]:
+              - text: X URL
+              - textbox "X URL" [ref=f23e111]
+          - group "Search and sharing" [ref=f23e112]:
+            - generic [ref=f23e114]:
+              - text: Page title
+              - textbox "Page title" [ref=f23e115]: Your Name — Full stack developer
+              - paragraph [ref=f23e116]: Shown in browser tabs and Google.
+            - generic [ref=f23e117]:
+              - text: Description
+              - textbox "Description" [ref=f23e118]: Full stack developer building SaaS products, dashboards and APIs with Next.js, Node and Postgres.
+          - button "Save changes" [ref=f23e120]
+  - button "Open Next.js Dev Tools" [ref=f23e126] [cursor=pointer]
+  - alert [ref=f23e130]
