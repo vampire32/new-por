@@ -1,0 +1,530 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Syed Abdul Moiz Shah" [ref=e5] [cursor=pointer]:
+        - /url: /
+      - navigation "Main" [ref=e6]:
+        - link "Work" [ref=e7] [cursor=pointer]:
+          - /url: /work
+        - link "About" [ref=e8] [cursor=pointer]:
+          - /url: /#about
+        - link "Experience" [ref=e9] [cursor=pointer]:
+          - /url: /#experience
+        - link "Skills" [ref=e10] [cursor=pointer]:
+          - /url: /#skills
+        - link "Services" [ref=e11] [cursor=pointer]:
+          - /url: /#services
+        - link "Start a project" [ref=e12] [cursor=pointer]:
+          - /url: /#contact
+  - main [ref=e13]:
+    - generic [ref=e14]:
+      - generic [ref=e15]:
+        - generic [ref=e16]:
+          - paragraph [ref=e17]: Open to new projects
+          - heading "Web apps, mobile apps and AI automation, built end to end." [level=1] [ref=e21]
+          - paragraph [ref=e22]: Senior Full Stack Developer in Islamabad. 200+ client projects delivered, mostly for US-based teams, with MERN, Next.js, Laravel, React Native and WordPress.
+          - generic [ref=e23]:
+            - link "Start a project" [ref=e24] [cursor=pointer]:
+              - /url: "#contact"
+            - link "See case studies" [ref=e27] [cursor=pointer]:
+              - /url: /work
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - generic [ref=e33]: SA
+            - generic [ref=e34]:
+              - paragraph [ref=e35]: Syed Abdul Moiz Shah
+              - paragraph [ref=e36]: Senior Full Stack Developer
+          - list [ref=e37]:
+            - listitem [ref=e38]:
+              - generic [ref=e42]: Diligent Technologies
+            - listitem [ref=e43]: Islamabad, Pakistan
+            - listitem [ref=e47]:
+              - link "moizabdul320@gmail.com" [ref=e51] [cursor=pointer]:
+                - /url: mailto:moizabdul320@gmail.com
+      - generic [ref=e53]:
+        - generic [ref=e59]:
+          - term [ref=e60]: Years building for the web
+          - definition [ref=e61]:
+            - generic [ref=e62]: 7+
+            - generic [ref=e64]: Years building for the web
+        - generic [ref=e69]:
+          - term [ref=e70]: Projects delivered for clients
+          - definition [ref=e71]:
+            - generic [ref=e72]: 200+
+            - generic [ref=e74]: Projects delivered for clients
+        - generic [ref=e81]:
+          - term [ref=e82]: Tools and technologies
+          - definition [ref=e83]:
+            - generic [ref=e84]: "35"
+            - generic [ref=e85]: Tools and technologies
+        - generic [ref=e91]:
+          - term [ref=e92]: Working with clients worldwide
+          - definition [ref=e93]:
+            - generic [ref=e94]: Islamabad, Pakistan
+            - generic [ref=e95]: Working with clients worldwide
+    - generic [ref=e96]:
+      - paragraph [ref=e97]: "Technologies: React, Next.js, Redux, Tailwind CSS, Node.js, Express, Laravel, GraphQL, Socket.io, REST APIs, React Native, Expo, iOS, Android, MongoDB, PostgreSQL, MySQL, Firebase, OpenAI, n8n, Zapier, AI Chatbots, AWS, Docker, Vercel, GitHub, cPanel, JavaScript, TypeScript, Python, PHP, HTML5, CSS, WordPress, Stripe"
+      - list [aria-hidden] [ref=e98]:
+        - listitem [ref=e99]:
+          - generic [ref=e102]: React
+        - listitem [ref=e103]:
+          - generic [ref=e106]: Next.js
+        - listitem [ref=e107]:
+          - generic [ref=e110]: Redux
+        - listitem [ref=e111]:
+          - generic [ref=e114]: Tailwind CSS
+        - listitem [ref=e115]:
+          - generic [ref=e118]: Node.js
+        - listitem [ref=e119]:
+          - generic [ref=e122]: Express
+        - listitem [ref=e123]:
+          - generic [ref=e126]: Laravel
+        - listitem [ref=e127]:
+          - generic [ref=e130]: GraphQL
+        - listitem [ref=e131]:
+          - generic [ref=e134]: Socket.io
+        - listitem [ref=e135]:
+          - generic [ref=e139]: REST APIs
+        - listitem [ref=e140]:
+          - generic [ref=e143]: React Native
+        - listitem [ref=e144]:
+          - generic [ref=e147]: Expo
+        - listitem [ref=e148]:
+          - generic [ref=e151]: iOS
+        - listitem [ref=e152]:
+          - generic [ref=e155]: Android
+        - listitem [ref=e156]:
+          - generic [ref=e159]: MongoDB
+        - listitem [ref=e160]:
+          - generic [ref=e163]: PostgreSQL
+        - listitem [ref=e164]:
+          - generic [ref=e167]: MySQL
+        - listitem [ref=e168]:
+          - generic [ref=e171]: Firebase
+        - listitem [ref=e172]:
+          - generic [ref=e176]: OpenAI
+        - listitem [ref=e177]:
+          - generic [ref=e180]: n8n
+        - listitem [ref=e181]:
+          - generic [ref=e184]: Zapier
+        - listitem [ref=e185]:
+          - generic [ref=e189]: AI Chatbots
+        - listitem [ref=e190]:
+          - generic [ref=e193]: AWS
+        - listitem [ref=e194]:
+          - generic [ref=e197]: Docker
+        - listitem [ref=e198]:
+          - generic [ref=e201]: Vercel
+        - listitem [ref=e202]:
+          - generic [ref=e205]: GitHub
+        - listitem [ref=e206]:
+          - generic [ref=e209]: cPanel
+        - listitem [ref=e210]:
+          - generic [ref=e213]: JavaScript
+        - listitem [ref=e214]:
+          - generic [ref=e217]: TypeScript
+        - listitem [ref=e218]:
+          - generic [ref=e221]: Python
+        - listitem [ref=e222]:
+          - generic [ref=e225]: PHP
+        - listitem [ref=e226]:
+          - generic [ref=e229]: HTML5
+        - listitem [ref=e230]:
+          - generic [ref=e233]: CSS
+        - listitem [ref=e234]:
+          - generic [ref=e237]: WordPress
+        - listitem [ref=e238]:
+          - generic [ref=e241]: Stripe
+        - listitem [ref=e242]:
+          - generic [ref=e245]: React
+        - listitem [ref=e246]:
+          - generic [ref=e249]: Next.js
+        - listitem [ref=e250]:
+          - generic [ref=e253]: Redux
+        - listitem [ref=e254]:
+          - generic [ref=e257]: Tailwind CSS
+        - listitem [ref=e258]:
+          - generic [ref=e261]: Node.js
+        - listitem [ref=e262]:
+          - generic [ref=e265]: Express
+        - listitem [ref=e266]:
+          - generic [ref=e269]: Laravel
+        - listitem [ref=e270]:
+          - generic [ref=e273]: GraphQL
+        - listitem [ref=e274]:
+          - generic [ref=e277]: Socket.io
+        - listitem [ref=e278]:
+          - generic [ref=e282]: REST APIs
+        - listitem [ref=e283]:
+          - generic [ref=e286]: React Native
+        - listitem [ref=e287]:
+          - generic [ref=e290]: Expo
+        - listitem [ref=e291]:
+          - generic [ref=e294]: iOS
+        - listitem [ref=e295]:
+          - generic [ref=e298]: Android
+        - listitem [ref=e299]:
+          - generic [ref=e302]: MongoDB
+        - listitem [ref=e303]:
+          - generic [ref=e306]: PostgreSQL
+        - listitem [ref=e307]:
+          - generic [ref=e310]: MySQL
+        - listitem [ref=e311]:
+          - generic [ref=e314]: Firebase
+        - listitem [ref=e315]:
+          - generic [ref=e319]: OpenAI
+        - listitem [ref=e320]:
+          - generic [ref=e323]: n8n
+        - listitem [ref=e324]:
+          - generic [ref=e327]: Zapier
+        - listitem [ref=e328]:
+          - generic [ref=e332]: AI Chatbots
+        - listitem [ref=e333]:
+          - generic [ref=e336]: AWS
+        - listitem [ref=e337]:
+          - generic [ref=e340]: Docker
+        - listitem [ref=e341]:
+          - generic [ref=e344]: Vercel
+        - listitem [ref=e345]:
+          - generic [ref=e348]: GitHub
+        - listitem [ref=e349]:
+          - generic [ref=e352]: cPanel
+        - listitem [ref=e353]:
+          - generic [ref=e356]: JavaScript
+        - listitem [ref=e357]:
+          - generic [ref=e360]: TypeScript
+        - listitem [ref=e361]:
+          - generic [ref=e364]: Python
+        - listitem [ref=e365]:
+          - generic [ref=e368]: PHP
+        - listitem [ref=e369]:
+          - generic [ref=e372]: HTML5
+        - listitem [ref=e373]:
+          - generic [ref=e376]: CSS
+        - listitem [ref=e377]:
+          - generic [ref=e380]: WordPress
+        - listitem [ref=e381]:
+          - generic [ref=e384]: Stripe
+    - generic [ref=e386]:
+      - generic [ref=e387]:
+        - generic [ref=e388]:
+          - heading "Selected work" [level=2] [ref=e389]
+          - paragraph [ref=e390]: A few projects I'm proud of, with the problem behind each one and what changed after.
+        - link "See all projects" [ref=e391] [cursor=pointer]:
+          - /url: /work
+      - generic [ref=e395]:
+        - article [ref=e396]:
+          - link [aria-hidden] [ref=e398] [cursor=pointer]:
+            - /url: /work/ai-support-chatbot
+            - generic [ref=e399]:
+              - generic [ref=e400]: ai-support-chatbot
+              - paragraph [ref=e413]: AI customer support chatbot
+          - generic [ref=e424]:
+            - paragraph [ref=e425]: Senior Full Stack Developer, 2025
+            - heading [level=3] [ref=e426]:
+              - link "AI customer support chatbot" [ref=e427] [cursor=pointer]:
+                - /url: /work/ai-support-chatbot
+            - paragraph [ref=e428]: An OpenAI-powered assistant that answers customer questions inside a client product.
+            - generic [ref=e429]:
+              - generic [ref=e434]:
+                - term [ref=e435]: The problem
+                - definition [ref=e436]: Support teams were answering the same customer questions by hand, which slowed down replies.
+              - generic [ref=e441]:
+                - term [ref=e442]: The result
+                - definition [ref=e443]: Customers get instant answers to routine questions, and the support team spends its time on the conversations that need a person.
+            - list "Technologies" [ref=e445]:
+              - listitem [ref=e446]: OpenAI
+              - listitem [ref=e447]: Node.js
+              - listitem [ref=e448]: React
+              - listitem [ref=e449]: MongoDB
+            - link "Read the case study" [ref=e450] [cursor=pointer]:
+              - /url: /work/ai-support-chatbot
+        - article [ref=e453]:
+          - link [aria-hidden] [ref=e455] [cursor=pointer]:
+            - /url: /work/cross-platform-mobile-app
+            - generic [ref=e456]:
+              - generic [ref=e457]: cross-platform-mobile-app
+              - paragraph [ref=e470]: Cross-platform mobile app with payments
+          - generic [ref=e481]:
+            - paragraph [ref=e482]: Full Stack Developer, 2023
+            - heading [level=3] [ref=e483]:
+              - link "Cross-platform mobile app with payments" [ref=e484] [cursor=pointer]:
+                - /url: /work/cross-platform-mobile-app
+            - paragraph [ref=e485]: An iOS and Android app with sign-in, real-time data and Stripe payments.
+            - generic [ref=e486]:
+              - generic [ref=e491]:
+                - term [ref=e492]: The problem
+                - definition [ref=e493]: The client needed one app on both iOS and Android without maintaining two codebases.
+              - generic [ref=e498]:
+                - term [ref=e499]: The result
+                - definition [ref=e500]: One codebase shipped to both app stores, with payments and live data working the same on every device.
+            - list "Technologies" [ref=e502]:
+              - listitem [ref=e503]: React Native
+              - listitem [ref=e504]: Expo
+              - listitem [ref=e505]: Firebase
+              - listitem [ref=e506]: Stripe
+            - link "Read the case study" [ref=e507] [cursor=pointer]:
+              - /url: /work/cross-platform-mobile-app
+        - article [ref=e510]:
+          - link [aria-hidden] [ref=e512] [cursor=pointer]:
+            - /url: /work/business-workflow-automation
+            - generic [ref=e513]:
+              - generic [ref=e514]: business-workflow-automation
+              - paragraph [ref=e527]: Business workflow automation
+          - generic [ref=e538]:
+            - paragraph [ref=e539]: Senior Full Stack Developer, 2024
+            - heading [level=3] [ref=e540]:
+              - link "Business workflow automation" [ref=e541] [cursor=pointer]:
+                - /url: /work/business-workflow-automation
+            - paragraph [ref=e542]: n8n and Zapier workflows that connect a business's tools and remove manual steps.
+            - generic [ref=e543]:
+              - generic [ref=e548]:
+                - term [ref=e549]: The problem
+                - definition [ref=e550]: Staff were copying data between forms, CRMs, spreadsheets and email by hand every day.
+              - generic [ref=e555]:
+                - term [ref=e556]: The result
+                - definition [ref=e557]: Repetitive admin work runs on its own, and data stays in sync across the tools the team already uses.
+            - list "Technologies" [ref=e559]:
+              - listitem [ref=e560]: n8n
+              - listitem [ref=e561]: Zapier
+              - listitem [ref=e562]: OpenAI
+              - listitem [ref=e563]: REST APIs
+            - link "Read the case study" [ref=e564] [cursor=pointer]:
+              - /url: /work/business-workflow-automation
+    - generic [ref=e568]:
+      - generic [ref=e570]:
+        - heading "About" [level=2] [ref=e575]
+        - paragraph [ref=e576]: The short version of who I am and how I work.
+      - generic [ref=e578]:
+        - generic [ref=e580]:
+          - paragraph [ref=e581]: I'm a software engineer and senior full stack developer with 5+ years of building web applications, mobile apps and AI-powered products. Most of my work has been for US-based clients, and I usually own a project from the first requirements call to production deployment.
+          - paragraph [ref=e582]: Day to day I work across the MERN stack, Next.js and Laravel on the web, React Native and Expo on mobile, and the OpenAI API, n8n and Zapier when a product needs AI features or automated workflows. I also mentor interns and junior developers on coding standards, Git workflows and full stack best practices.
+          - paragraph [ref=e583]: I hold a BS in Software Engineering from Abasyn University, Islamabad (2023), and work in English and Urdu.
+        - complementary [ref=e584]:
+          - generic [ref=e585]:
+            - generic [ref=e586]:
+              - term [ref=e590]: Experience
+              - definition [ref=e591]: 7+ years
+            - generic [ref=e592]:
+              - term [ref=e595]: Projects delivered
+              - definition [ref=e596]: 200+
+            - generic [ref=e597]:
+              - term [ref=e601]: Based in
+              - definition [ref=e602]: Islamabad, Pakistan
+            - generic [ref=e603]:
+              - term [ref=e607]: Availability
+              - definition [ref=e608]: Taking new work
+    - generic [ref=e610]:
+      - generic [ref=e612]:
+        - heading "Experience" [level=2] [ref=e618]
+        - paragraph [ref=e619]: Where I've worked and what I did there.
+      - list [ref=e621]:
+        - listitem [ref=e622]:
+          - generic [ref=e627]:
+            - generic [ref=e628]:
+              - heading "Senior Full Stack Developer at Diligent Technologies" [level=3] [ref=e629]:
+                - text: Senior Full Stack Developer
+                - generic [ref=e630]: at Diligent Technologies
+              - paragraph [ref=e631]: Sep 2023 to Present
+            - paragraph [ref=e634]: "Delivered 200+ client projects for predominantly US-based clients: web apps, mobile apps, AI integrations and automation. Built chatbots and intelligent workflows with the OpenAI API, automated business processes with n8n and Zapier, and mentored interns and junior developers."
+        - listitem [ref=e635]:
+          - generic [ref=e640]:
+            - generic [ref=e641]:
+              - heading "Full Stack Developer at LeadSol" [level=3] [ref=e642]:
+                - text: Full Stack Developer
+                - generic [ref=e643]: at LeadSol
+              - paragraph [ref=e644]: Jan 2021 to Aug 2023
+            - paragraph [ref=e647]: Shipped cross-platform iOS and Android apps with React Native and Expo, built the REST APIs behind them, integrated Firebase for authentication and real-time data, and implemented Stripe payments. Worked in remote and hybrid teams.
+        - listitem [ref=e648]:
+          - generic [ref=e653]:
+            - generic [ref=e654]:
+              - heading "Freelance Full Stack Developer at Self-employed" [level=3] [ref=e655]:
+                - text: Freelance Full Stack Developer
+                - generic [ref=e656]: at Self-employed
+              - paragraph [ref=e657]: Jan 2020 to Present
+            - paragraph [ref=e660]: Websites, mobile apps and AI-based solutions for referral clients, managed end to end from requirements and development to testing, deployment and handoff.
+    - generic [ref=e662]:
+      - generic [ref=e664]:
+        - heading "Skills" [level=2] [ref=e668]
+        - paragraph [ref=e669]: The tools I reach for, grouped by where they sit in the stack.
+      - generic [ref=e671]:
+        - generic [ref=e672]:
+          - generic [ref=e673]:
+            - heading "Frontend" [level=3] [ref=e677]
+            - generic [ref=e678]: "4"
+          - list [ref=e679]:
+            - listitem [ref=e680]: React
+            - listitem [ref=e681]: Next.js
+            - listitem [ref=e682]: Redux
+            - listitem [ref=e683]: Tailwind CSS
+        - generic [ref=e684]:
+          - generic [ref=e685]:
+            - heading "Backend" [level=3] [ref=e690]
+            - generic [ref=e691]: "6"
+          - list [ref=e692]:
+            - listitem [ref=e693]: Node.js
+            - listitem [ref=e694]: Express
+            - listitem [ref=e695]: Laravel
+            - listitem [ref=e696]: GraphQL
+            - listitem [ref=e697]: Socket.io
+            - listitem [ref=e698]: REST APIs
+        - generic [ref=e699]:
+          - generic [ref=e700]:
+            - heading "Mobile" [level=3] [ref=e704]
+            - generic [ref=e705]: "4"
+          - list [ref=e706]:
+            - listitem [ref=e707]: React Native
+            - listitem [ref=e708]: Expo
+            - listitem [ref=e709]: iOS
+            - listitem [ref=e710]: Android
+        - generic [ref=e711]:
+          - generic [ref=e712]:
+            - heading "Databases" [level=3] [ref=e718]
+            - generic [ref=e719]: "4"
+          - list [ref=e720]:
+            - listitem [ref=e721]: MongoDB
+            - listitem [ref=e722]: PostgreSQL
+            - listitem [ref=e723]: MySQL
+            - listitem [ref=e724]: Firebase
+        - generic [ref=e725]:
+          - generic [ref=e726]:
+            - heading "AI & Automation" [level=3] [ref=e731]
+            - generic [ref=e732]: "4"
+          - list [ref=e733]:
+            - listitem [ref=e734]: OpenAI
+            - listitem [ref=e735]: n8n
+            - listitem [ref=e736]: Zapier
+            - listitem [ref=e737]: AI Chatbots
+        - generic [ref=e738]:
+          - generic [ref=e739]:
+            - heading "Cloud & DevOps" [level=3] [ref=e743]
+            - generic [ref=e744]: "5"
+          - list [ref=e745]:
+            - listitem [ref=e746]: AWS
+            - listitem [ref=e747]: Docker
+            - listitem [ref=e748]: Vercel
+            - listitem [ref=e749]: GitHub
+            - listitem [ref=e750]: cPanel
+        - generic [ref=e751]:
+          - generic [ref=e752]:
+            - heading "Languages" [level=3] [ref=e758]
+            - generic [ref=e759]: "6"
+          - list [ref=e760]:
+            - listitem [ref=e761]: JavaScript
+            - listitem [ref=e762]: TypeScript
+            - listitem [ref=e763]: Python
+            - listitem [ref=e764]: PHP
+            - listitem [ref=e765]: HTML5
+            - listitem [ref=e766]: CSS
+        - generic [ref=e767]:
+          - generic [ref=e768]:
+            - heading "CMS & Payments" [level=3] [ref=e772]
+            - generic [ref=e773]: "2"
+          - list [ref=e774]:
+            - listitem [ref=e775]: WordPress
+            - listitem [ref=e776]: Stripe
+    - generic [ref=e778]:
+      - generic [ref=e780]:
+        - heading "Services" [level=2] [ref=e787]
+        - paragraph [ref=e788]: What I can take off your plate, from a first version to fixing what's already live.
+        - link "Discuss your project" [ref=e790] [cursor=pointer]:
+          - /url: "#contact"
+      - generic [ref=e794]:
+        - generic [ref=e795]:
+          - heading "Full stack web applications" [level=3] [ref=e800]
+          - paragraph [ref=e801]: Dashboards, portals and SaaS products with React, Next.js, Node.js or Laravel, taken from requirements to production.
+        - generic [ref=e802]:
+          - heading "Mobile apps" [level=3] [ref=e807]
+          - paragraph [ref=e808]: Cross-platform iOS and Android apps with React Native and Expo, including the APIs behind them and store deployment.
+        - generic [ref=e809]:
+          - heading "AI chatbots and assistants" [level=3] [ref=e815]
+          - paragraph [ref=e816]: OpenAI-powered chatbots and LLM features that answer customers and handle routine questions inside your product.
+        - generic [ref=e817]:
+          - heading "Workflow automation" [level=3] [ref=e824]
+          - paragraph [ref=e825]: n8n and Zapier workflows that connect your tools and APIs and remove manual, repetitive work.
+        - generic [ref=e826]:
+          - heading "WordPress and payments" [level=3] [ref=e831]
+          - paragraph [ref=e832]: WordPress sites and Stripe payment integration for businesses that need to sell or take bookings online.
+        - generic [ref=e833]:
+          - heading "Maintenance and performance" [level=3] [ref=e839]
+          - paragraph [ref=e840]: Ongoing support, debugging and speed improvements for apps that are already live.
+    - generic [ref=e843]:
+      - generic [ref=e844]:
+        - heading "Let's build something good." [level=2] [ref=e845]
+        - paragraph [ref=e846]: Tell me about your project or the role you're hiring for, and I'll get back to you with next steps.
+        - list [ref=e847]:
+          - listitem [ref=e848]:
+            - link "moizabdul320@gmail.com" [ref=e853] [cursor=pointer]:
+              - /url: mailto:moizabdul320@gmail.com
+          - listitem [ref=e854]:
+            - generic [ref=e859]: Islamabad, Pakistan
+          - listitem [ref=e860]:
+            - generic [ref=e865]: Replies within one working day
+        - list [ref=e866]:
+          - listitem [ref=e867]:
+            - link "GitHub" [ref=e868] [cursor=pointer]:
+              - /url: https://github.com/vampire32
+          - listitem [ref=e871]:
+            - link "LinkedIn" [ref=e872] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/syed-abdul-moiz-shah-86953a203
+      - generic [ref=e876]:
+        - generic [ref=e877]:
+          - generic [ref=e878]:
+            - text: Name
+            - textbox "Name" [ref=e879]
+          - generic [ref=e880]:
+            - text: Email
+            - textbox "Email" [ref=e881]
+        - generic [ref=e882]:
+          - text: Message
+          - textbox "Message" [ref=e883]:
+            - /placeholder: What are you building, and when do you need it?
+        - generic [aria-hidden] [ref=e884]:
+          - text: Website
+          - textbox [ref=e885]
+        - button "Send message" [ref=e886]
+  - contentinfo [ref=e890]:
+    - generic [ref=e891]:
+      - generic [ref=e892]:
+        - paragraph [ref=e893]: Syed Abdul Moiz Shah
+        - paragraph [ref=e894]: Web apps, mobile apps and AI automation, built end to end.
+        - list [ref=e895]:
+          - listitem [ref=e896]:
+            - link "GitHub" [ref=e897] [cursor=pointer]:
+              - /url: https://github.com/vampire32
+          - listitem [ref=e900]:
+            - link "LinkedIn" [ref=e901] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/syed-abdul-moiz-shah-86953a203
+      - navigation "Footer" [ref=e904]:
+        - list [ref=e905]:
+          - listitem [ref=e906]:
+            - link "Work" [ref=e907] [cursor=pointer]:
+              - /url: /work
+          - listitem [ref=e908]:
+            - link "About" [ref=e909] [cursor=pointer]:
+              - /url: /#about
+          - listitem [ref=e910]:
+            - link "Experience" [ref=e911] [cursor=pointer]:
+              - /url: /#experience
+          - listitem [ref=e912]:
+            - link "Skills" [ref=e913] [cursor=pointer]:
+              - /url: /#skills
+          - listitem [ref=e914]:
+            - link "Services" [ref=e915] [cursor=pointer]:
+              - /url: /#services
+          - listitem [ref=e916]:
+            - link "Contact" [ref=e917] [cursor=pointer]:
+              - /url: /#contact
+    - generic [ref=e919]:
+      - paragraph [ref=e920]: Syed Abdul Moiz Shah, Islamabad, Pakistan
+      - link "Back to top" [ref=e921] [cursor=pointer]:
+        - /url: "#main"
+  - button "Open Next.js Dev Tools" [ref=e929] [cursor=pointer]:
+    - generic [ref=e932]:
+      - text: Compiling
+      - generic [ref=e933]:
+        - generic [ref=e934]: .
+        - generic [ref=e935]: .
+        - generic [ref=e936]: .

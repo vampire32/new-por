@@ -30,6 +30,8 @@ export default async function ProfilePage() {
           <Field label="Name" name="name" defaultValue={p.name} />
           <Field label="Headline" name="headline" defaultValue={p.headline} hint="The big line at the top of the home page." />
           <Field label="Intro" name="intro" rows={3} defaultValue={p.intro} />
+          <Field label="Projects delivered" name="projects_delivered" type="number" defaultValue={p.projects_delivered}
+            hint="Your total, shown as a stat on the home page. Leave empty to count published projects instead." />
           <Field label="Open to new projects" name="available" type="checkbox" defaultValue={p.available}
             hint="Shows the availability badge in the hero." />
           <FileInput label="Photo" name="photo_url" current={p.photo_url} hint="Portrait works best (4:5). Max 4 MB per save." />
