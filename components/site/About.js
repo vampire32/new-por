@@ -7,7 +7,7 @@ import Section from "./Section";
 export default function About({ profile, stats }) {
   const facts = [
     stats.years > 0 && [Briefcase, "Experience", `${stats.years}+ years`],
-    stats.projects > 0 && [FolderKanban, "Projects shipped", stats.projects],
+    stats.projects > 0 && [FolderKanban, "Projects delivered", `${stats.projects}${profile.projects_delivered ? "+" : ""}`],
     profile.location && [MapPin, "Based in", profile.location],
     [CircleCheck, "Availability", profile.available ? "Taking new work" : "Fully booked"],
   ].filter(Boolean);
