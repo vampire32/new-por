@@ -55,7 +55,7 @@ export default function Hero({ data }) {
   const stack = data.skillGroups.flatMap((g) => g.skills.map((s) => s.name));
   const facts = [
     data.stats.years > 0 && { icon: Briefcase, count: data.stats.years, suffix: "+", label: "Years building for the web" },
-    data.stats.projects > 0 && { icon: FolderKanban, count: data.stats.projects, label: "Projects shipped to production" },
+    data.stats.projects > 0 && { icon: FolderKanban, count: data.stats.projects, suffix: p.projects_delivered ? "+" : "", label: "Projects delivered for clients" },
     stack.length > 0 && { icon: CodeXml, count: stack.length, label: "Tools and technologies" },
     p.location && { icon: MapPin, text: p.location, label: "Working with clients worldwide" },
   ].filter(Boolean);
